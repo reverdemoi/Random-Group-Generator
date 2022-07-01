@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <h2>Random Group Generator</h2>
+
+    <form>
+      <label for="people">People to be sorted (seperated by commas):</label>
+      <br />
+      <input class="people" type="text" name="people" />
+      <br />
+      <label>Number of groups:</label> <br />
+      <input class="num" type="text" name="num" /> <br />
+      <button class="generate--button">Generate Groups</button>
+      <button class="clear--button">Clear</button>
+    </form>
+
+    <div class="groups"></div>
+
+    <script defer src="app.js"></script>
+  </body>
+</html>
